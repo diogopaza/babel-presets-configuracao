@@ -1,0 +1,30 @@
+{
+  "name": "babel7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@babel/cli": "^7.0.0-beta.36",
+    "@babel/core": "^7.0.0-beta.36",
+    "@babel/plugin-proposal-optional-chaining": "^7.0.0-beta.36",
+    "@babel/plugin-proposal-pipeline-operator": "^7.0.0-beta.36",
+    "@babel/preset-env": "^7.0.0-beta.36"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel app-src -d app --source-maps",
+    "watch": "babel app-src -d app --source-maps --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diogopaza/babel-presets-configuracao.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diogopaza/babel-presets-configuracao/issues"
+  },
+  "homepage": "https://github.com/diogopaza/babel-presets-configuracao#readme"
+}
